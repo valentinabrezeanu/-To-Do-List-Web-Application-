@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Proiect_final_Brezeanu_Valentina</title>
+<link rel="stylesheet" href="proiect.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Adaugă un task !!!</h1>
+        <form id="task-form">
+                    <input type="text" id="task-input" placeholder="ex: learn to cook..." required />
+                    <button type="submit">Adaugă</button>
+        </form>
+
+        <div id="filters">
+            <button id="all-btn">Toate</button>
+            <button id="uncompleted-btn">Nerezolvate</button>
+            <button id="completed-btn">Rezolvate</button>
+        </div>
+
+        <h1>To-Do List:</h1>
+        <ul id="task-list"></ul>
+        <div id="delete-container">
+            <button id="deleteAll-btn">Șterge tot</button>
+        </div>
+    </div>    
+    <script src="proiect.js"></script>
+</body>
+</html>
